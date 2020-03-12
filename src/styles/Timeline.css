@@ -71,6 +71,10 @@
     box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
+.timeline-content-div {
+    padding-top: 20px;
+}
+
 .timeline-item-content .tag {
     color: #fff;
     font-size: 12px;

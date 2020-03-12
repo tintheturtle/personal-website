@@ -3,8 +3,8 @@
         "text": "Jackson Laboratories for Genomic Medicine",
         "date": "January 2017 - May 2017",
         "category": {
-            "tag": "internship",
-            "color": "#018f69"
+            "tag": "Data Science Intern",
+            "color": "#00909e"
         },
         "link": {
             "url":
@@ -16,8 +16,8 @@
         "text": "BostonHacks",
         "date": "April 2019 - Present",
         "category": {
-            "tag": "school organization",
-            "color": "#018f69"
+            "tag": "Organizer",
+            "color": "#00909e"
         },
         "link": {
             "url":
@@ -26,11 +26,11 @@
         }
     },
     {
-        "text": "New England Intercollegiate Vietnamese Student Association",
+        "text": "NEIVSA",
         "date": "April 2019 - Present",
         "category": {
-            "tag": "school organization",
-            "color": "#018f69"
+            "tag": "Software Engineer Intern",
+            "color": "#00909e"
         },
         "link": {
             "url":
@@ -42,8 +42,8 @@
         "text": "Hack4Impact",
         "date": "September 2019 - Present",
         "category": {
-            "tag": "school organization",
-            "color": "#018f69"
+            "tag": "Software Engineer",
+            "color": "#00909e"
         },
         "link": {
             "url":
