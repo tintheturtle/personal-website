@@ -1,0 +1,94 @@
+#headshot {
+    width: 35%;  
+}
+
+.headshot-description {
+    flex-grow: 1;
+    text-align: left;
+    width: 50%;
+    padding-right: 30px;
+}
+
+.headshot-image {
+    max-width:100%;
+    height: auto;
+}
+
+.headshot-div {
+    margin: auto;
+    padding-right: 80px;
+}
+
+#welcome-div {
+    display: flex;
+    padding: 200px
+}
+
+.headshot-container {
+    background: #282c34;
+}
+
+.headshot-h1 {
+    text-align: left;
+    padding: 30px 0px;
+    width: 100%;
+}
+
+.headshot-paragraph {
+    font-size: 20px;
+}
+
+
+.wordCarousel {
+    font-size: 36px;
+    font-weight: 100;
+    color: #c9d1d3;
+    display: flex;
+}
+
+.wordCarousel-div {
+    overflow: hidden;
+    position: relative;
+    height: 65px;
+    padding-top: 10px;
+    margin-top: -10px;
+}
+
+.wordCarousel-li {
+    font-family: Serif;
+    color: #c9d1d3;
+    font-weight: 700;
+    padding: 0 10px;
+    height: 45px;
+    margin-bottom: 45px;
+    display: block;
+}
+
+.flip3 { animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+
+@keyframes flip3 {
+    0% { margin-top: -270px; }
+    5% { margin-top: -180px; }
+    33% { margin-top: -180px; }
+    38% { margin-top: -90px; }
+    66% { margin-top: -90px; }
+    71% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -270px; }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300|Oswald);
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto Condensed", cursive;
+    align-items: center;
+    justify-content: center;
+    background: #333;
+}

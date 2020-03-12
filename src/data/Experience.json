@@ -1,0 +1,54 @@
+[
+    {
+        "text": "Jackson Laboratories for Genomic Medicine",
+        "date": "January 2017 - May 2017",
+        "category": {
+            "tag": "internship",
+            "color": "#018f69"
+        },
+        "link": {
+            "url":
+                "https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2",
+            "text": "Read more"
+        }
+    },
+    {
+        "text": "BostonHacks",
+        "date": "April 2019 - Present",
+        "category": {
+            "tag": "school organization",
+            "color": "#018f69"
+        },
+        "link": {
+            "url":
+                "https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2",
+            "text": "Read more"
+        }
+    },
+    {
+        "text": "New England Intercollegiate Vietnamese Student Association",
+        "date": "April 2019 - Present",
+        "category": {
+            "tag": "school organization",
+            "color": "#018f69"
+        },
+        "link": {
+            "url":
+                "https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2",
+            "text": "Read more"
+        }
+    },
+    {
+        "text": "Hack4Impact",
+        "date": "September 2019 - Present",
+        "category": {
+            "tag": "school organization",
+            "color": "#018f69"
+        },
+        "link": {
+            "url":
+                "https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2",
+            "text": "Read more"
+        }
+    }
+]

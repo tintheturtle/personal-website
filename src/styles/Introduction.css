@@ -1,0 +1,32 @@
+.hello-h3 {
+    font-size: 25px;
+    color: #00909e
+}
+
+.name-h1 {
+    color: white;
+    font-size: 80px;
+}
+
+.desc-h1 {
+    font-size: 80px;
+    color: #c9d1d3
+}
+
+.intro-description {
+    flex-grow: 1;
+    margin: auto;
+    text-align: left;
+    width: 50%;
+}
+
+/* .intro-info {
+    padding-left: 50px;
+} */
+
+.intro-p {
+    color: #c9d1d3;
+    padding-top: 50px;
+    width: 50%;
+    font-size: 20px
+}
