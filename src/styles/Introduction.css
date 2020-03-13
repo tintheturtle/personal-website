@@ -20,13 +20,39 @@
     width: 50%;
 }
 
-/* .intro-info {
-    padding-left: 50px;
-} */
-
 .intro-p {
     color: #c9d1d3;
     padding-top: 50px;
     width: 50%;
     font-size: 20px
+}
+
+@media only screen and (max-width: 600px) {
+    .hello-h3 {
+        font-size: 10px;
+    }
+
+    .name-h1 {
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    .desc-h1 {
+        font-size: 20px;
+        color: #c9d1d3
+    }
+
+    .intro-description {
+        flex-grow: 1;
+        margin: auto;
+        text-align: left;
+        width: 50%;
+    }
+    
+    .intro-p {
+        color: #c9d1d3;
+        padding-top: 5px;
+        width: 70%;
+        font-size: 10px
+    }
 }

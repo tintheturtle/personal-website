@@ -8,6 +8,10 @@ data.length > 0 && (
         { data.map((data, indx) => (
             <ProjectItem data={data} key={indx} />
         ))}
+
+        <div>
+            <h1> Other Projects </h1>
+        </div>
     </div>
 )
 

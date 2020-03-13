@@ -54,7 +54,6 @@ function Home() {
             <div className="right-email">
 
             </div>
-            
         </div>
     )
 }

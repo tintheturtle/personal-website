@@ -1,6 +1,7 @@
 import React from 'react'
 import Example from '../../images/Example.png'
 
+
 const ProjectItem = ({data}) => (
     <div className="project-item-container">
         <div className="project-image">
