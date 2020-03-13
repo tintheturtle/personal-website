@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.8c3b30de.chunk.css",
-    "main.js": "/personal-website/static/js/main.5813cf17.chunk.js",
-    "main.js.map": "/personal-website/static/js/main.5813cf17.chunk.js.map",
+    "main.css": "/personal-website/static/css/main.f9e3722a.chunk.css",
+    "main.js": "/personal-website/static/js/main.5d92d596.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.5d92d596.chunk.js.map",
     "runtime-main.js": "/personal-website/static/js/runtime-main.aee6faec.js",
     "runtime-main.js.map": "/personal-website/static/js/runtime-main.aee6faec.js.map",
     "static/css/2.de424728.chunk.css": "/personal-website/static/css/2.de424728.chunk.css",
-    "static/js/2.9f44b5a5.chunk.js": "/personal-website/static/js/2.9f44b5a5.chunk.js",
-    "static/js/2.9f44b5a5.chunk.js.map": "/personal-website/static/js/2.9f44b5a5.chunk.js.map",
+    "static/js/2.6731ecca.chunk.js": "/personal-website/static/js/2.6731ecca.chunk.js",
+    "static/js/2.6731ecca.chunk.js.map": "/personal-website/static/js/2.6731ecca.chunk.js.map",
     "index.html": "/personal-website/index.html",
-    "precache-manifest.d71a0caed660a6de5810b586bfee95ef.js": "/personal-website/precache-manifest.d71a0caed660a6de5810b586bfee95ef.js",
+    "precache-manifest.094de65c1fa770d08832cd7674e976e9.js": "/personal-website/precache-manifest.094de65c1fa770d08832cd7674e976e9.js",
     "service-worker.js": "/personal-website/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/personal-website/static/css/2.de424728.chunk.css.map",
-    "static/css/main.8c3b30de.chunk.css.map": "/personal-website/static/css/main.8c3b30de.chunk.css.map",
-    "static/js/2.9f44b5a5.chunk.js.LICENSE.txt": "/personal-website/static/js/2.9f44b5a5.chunk.js.LICENSE.txt",
+    "static/css/main.f9e3722a.chunk.css.map": "/personal-website/static/css/main.f9e3722a.chunk.css.map",
+    "static/js/2.6731ecca.chunk.js.LICENSE.txt": "/personal-website/static/js/2.6731ecca.chunk.js.LICENSE.txt",
+    "static/media/Example.png": "/personal-website/static/media/Example.568bfcd9.png",
     "static/media/headshot.jpg": "/personal-website/static/media/headshot.5f1d49ca.jpg",
     "static/media/logo.svg": "/personal-website/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.aee6faec.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.9f44b5a5.chunk.js",
-    "static/css/main.8c3b30de.chunk.css",
-    "static/js/main.5813cf17.chunk.js"
+    "static/js/2.6731ecca.chunk.js",
+    "static/css/main.f9e3722a.chunk.css",
+    "static/js/main.5d92d596.chunk.js"
   ]
 }
