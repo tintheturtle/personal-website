@@ -4,7 +4,7 @@ import '../styles/Introduction.css'
 function IntroductionObject() {
     return (
         <div className="object-div " >
-            <div id="content-div">
+            <div id="intro-div">
                 <div className="intro-description">
                     <div className="intro-info">
                         <h3 className="hello-h3"> Hello, my name is </h3>

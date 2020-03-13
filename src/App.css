@@ -151,7 +151,7 @@ p {
   }
   
   .section-header-h1 {
-    padding-right: 15px;
+    padding-right: 5px;
     padding-left: 10px;
     width: 40%;
     font-size: 20px;
@@ -172,5 +172,9 @@ p {
     line-height: 1.2;
     margin: auto;
     margin-top: 10px;
+  }
+
+  .passion {
+    font-size: 20px;
   }
 }

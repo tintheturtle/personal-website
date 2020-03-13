@@ -14,6 +14,11 @@
     height: auto;
 }
 
+#headshot-div {
+    display: flex;
+
+}
+
 .headshot-div {
     margin: auto;
     padding-right: 80px;
@@ -91,4 +96,83 @@ body {
     align-items: center;
     justify-content: center;
     background: #333;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #headshot-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #headshot {
+        width: 100%;  
+        order: 1;
+    }
+    
+    .headshot-description {
+        width: 100%;
+        padding-right: 30px;
+        order: 2;
+    }
+    
+    .headshot-image {
+        max-width: 50%;
+        margin-left: 50px;
+    }
+    
+    .headshot-div {
+        padding-right: 0px;
+    }
+    
+    #welcome-div {
+        display: block;
+        padding: 200px
+    }
+    
+    .headshot-container {
+        background: #282c34;
+    }
+    
+    .headshot-h1 {
+        text-align: left;
+        padding: 30px 0px;
+        width: 100%;
+    }
+    
+    .headshot-paragraph {
+        font-size: 10px;
+    }
+    
+    
+    .wordCarousel {
+        padding-top: 15px;
+        font-size: 15px;
+        font-weight: 100;
+        color: #c9d1d3;
+        display: flex;
+        height: 30px;
+    }
+    
+    .wordCarousel-div {
+        overflow: hidden;
+        position: relative;
+        height: 65px;
+        padding-top: 10px;
+        margin-top: -10px;
+    }
+    
+    .wordCarousel-li {
+        font-family: "Roboto Condensed";
+        color: #c9d1d3;
+        font-weight: 700;
+        padding: 0 10px;
+        height: 45px;
+        margin-bottom: 45px;
+        display: block;
+    }
+
+    .flip3 {
+        padding-left: 10px;
+    }
 }

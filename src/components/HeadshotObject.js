@@ -16,20 +16,20 @@ function HeadshotObject() {
                 </div>
             </div>
             
-            <div id="content-div">
+            <div id="headshot-div">
                 <div className="headshot-description">
                     <div className="headshot-info">
-                        <h4 class="wordCarousel">    
+                        <h4 className="wordCarousel">    
                             <span>Hello, I am a... </span>  
                             <div className="wordCarousel-div"> 
-                                <ul class="flip3"> 
+                                <ul className="flip3"> 
                                     <li className="wordCarousel-li"><u>Programmer</u></li>
                                     <li className="wordCarousel-li"><u>Web Developer</u></li>
                                     <li className="wordCarousel-li"><u>Software Engineer</u></li> 
                                 </ul>
                             </div>  
                         </h4>
-                        <h4>
+                        <h4 className="passion">
                             I build things with passion.
                         </h4>
                         <p className="headshot-paragraph">
