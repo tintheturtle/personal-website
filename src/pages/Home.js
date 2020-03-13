@@ -6,6 +6,7 @@ import IntroductionObject from '../components/IntroductionObject'
 import HeadshotObject from '../components/HeadshotObject'
 import ExperienceObject from '../components/ExperienceObject'
 import ProjectObject from '../components/ProjectObject'
+import ContactObject from '../components/ContactObject'
 
 function Home() {
     return (
@@ -43,6 +44,9 @@ function Home() {
                 </div>
                 <div className="project-container">
                     <ProjectObject />
+                </div>
+                <div className="contact-container">
+                    <ContactObject />
                 </div>
             </div>
 
