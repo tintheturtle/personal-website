@@ -11,6 +11,7 @@ data.length > 0 && (
 
         <div>
             <h1> Other Projects </h1>
+            <h3> </h3> 
         </div>
     </div>
 )
