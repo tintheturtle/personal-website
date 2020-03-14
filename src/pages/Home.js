@@ -1,7 +1,7 @@
 import React from 'react'
-import logo from '../logo.svg'
 import '../styles/Headshot.css'
 import '../styles/Experience.css'
+import Navbar from '../components/Navbar'
 import IntroductionObject from '../components/IntroductionObject'
 import HeadshotObject from '../components/HeadshotObject'
 import ExperienceObject from '../components/ExperienceObject'
@@ -11,20 +11,7 @@ import ContactObject from '../components/ContactObject'
 function Home() {
     return (
         <div className="App">
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                Welcome to Tin's Personal Website!
-                </p>
-                <a
-                className="App-link"
-                href="https://reactjs.org"
-                target="_blank"
-                rel="noopener noreferrer"
-                >
-                Learn more about me!
-                </a>
-            </header>
+            <Navbar/>
             {/* <div className="left-socialmedia">
                 <ul>
                     <li> LinkedIn </li>

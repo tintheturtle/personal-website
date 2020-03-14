@@ -1,0 +1,98 @@
+
+
+
+#custom-navbar {
+    justify-content: right;
+    text-align: right;
+    display: flex;
+    padding: 2rem
+}
+
+.navbar-img {
+    width: 50px;
+}
+
+.navbar-logo {
+    flex-grow: 1;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-link {
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5rem;
+}
+
+.about-navbar-link:hover {
+    background-color: #00909e
+}
+
+.experience-navbar-link:hover {
+    background-color: #00909e
+}
+
+.project-navbar-link:hover {
+    background-color: #00909e
+}
+
+.contact-navbar-link:hover {
+    background-color: #00909e
+}
+
+.navbar {
+    background-color: #282c34;
+    color: white;
+}
+
+.resume-button {
+    color: white;
+    padding: 0.5rem;
+}
+
+.request-resume-button {
+	box-shadow:inset 0px 1px 0px 0px #00909e;
+	background-color:transparent;
+	border-radius:3px;
+	border:1px solid #00909e;
+	display:inline-block;
+	cursor:pointer;
+	color:#00909e;
+	padding:6px 24px;
+	text-decoration:none;
+}
+.request-resume-button:hover {
+    background-color:#00909e;
+    color: white;
+}
+.request-resume-button:active {
+	position:relative;
+	top:1px;
+}
+
+
+@media only screen and (max-width: 600px)  {
+    .navbar-link {
+        font-family: 'Poppins', sans-serif;
+        padding: 0.25rem;
+    }
+
+    .navbar-logo {
+        flex-grow: 1;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .resume-button {
+        flex-grow: 1;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .resume-button:hover {
+        color: white;
+    }
+    
+    .navbar-logo {
+        padding: 15px;
+    }
+}

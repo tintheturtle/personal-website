@@ -3,7 +3,7 @@ import '../styles/Introduction.css'
 
 function IntroductionObject() {
     return (
-        <div className="object-div " >
+        <div id="intro-object-div"className="object-div" >
             <div id="intro-div">
                 <div className="intro-description">
                     <div className="intro-info">

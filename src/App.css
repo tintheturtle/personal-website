@@ -74,7 +74,7 @@ p {
 }
 
 .container-div {
-  padding: 250px 160px;
+  padding: 0px 160px;
   background: #282c34;
 }
 
@@ -125,7 +125,7 @@ p {
   }
   
   .container-div {
-    padding: 25px 16px;
+    padding: 25px 0px;
     background: #282c34;
   }
   

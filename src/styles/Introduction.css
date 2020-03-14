@@ -1,3 +1,7 @@
+#intro-object-div {
+    padding-top: 40px;
+}
+
 .hello-h3 {
     font-size: 25px;
     color: #00909e
@@ -30,16 +34,16 @@
         display:flex;
     }
     .hello-h3 {
-        font-size: 10px;
+        font-size: 20px;
     }
 
     .name-h1 {
         color: #ffffff;
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .desc-h1 {
-        font-size: 20px;
+        font-size: 25px;
         color: #c9d1d3
     }
 
@@ -54,6 +58,6 @@
         color: #c9d1d3;
         padding-top: 5px;
         width: 70%;
-        font-size: 10px
+        font-size: 15px
     }
 }

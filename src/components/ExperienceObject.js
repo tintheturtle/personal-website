@@ -5,7 +5,7 @@ import TimeLine from '../components/Timeline/TimeLine'
 function ExperienceObject(props) {
     return (
         <div id="project-object-div" className="object-div">
-            <div id="project-header" className="section-header-parent">
+            <div id="project-header" className="section-header-parent experience-header">
                 <h1 className="section-header-child list-number">
                     02.
                 </h1>

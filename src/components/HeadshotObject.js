@@ -4,7 +4,7 @@ import Headshot from '../images/headshot.jpg'
 function HeadshotObject() {
     return (
         <div className="object-div" >
-            <div className="section-header-parent">
+            <div className="section-header-parent headshot-header">
                 <h1 className="section-header-child list-number">
                     01.
                 </h1>

@@ -4,7 +4,7 @@ import Turtle from '../images/pet.png'
 
 const ContactObject = () => (
     <div id="project-object-div" className="object-div">
-            <div id="project-header" className="section-header-parent">
+            <div id="project-header" className="section-header-parent contact-header">
                 <h1 className="section-header-child list-number">
                     04.
                 </h1>

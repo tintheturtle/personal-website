@@ -5,7 +5,7 @@ import '../styles/ProjectList.css'
 function ProjectObject() {
     return (
         <div id="project-object-div" className="object-div">
-            <div id="project-header" className="section-header-parent">
+            <div id="project-header" className="section-header-parent project-header-class">
                 <h1 className="section-header-child list-number">
                     03.
                 </h1>
