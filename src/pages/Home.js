@@ -22,7 +22,7 @@ function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
                 >
-                Learn React
+                Learn more about me!
                 </a>
             </header>
             {/* <div className="left-socialmedia">
