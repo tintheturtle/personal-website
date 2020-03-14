@@ -13,7 +13,7 @@ function ExperienceObject(props) {
                     Experience
                 </h1>
                 <div className=" section-header-child">
-                    <hr className="after-header"></hr>
+                    <hr id="experience-after-header" className="after-header"></hr>
                 </div>
             </div>
             <div className="experience-content-div">

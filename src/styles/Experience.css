@@ -3,6 +3,10 @@
     background: #282c34;
 }
 
-.experience-div {
-    
+
+
+@media only screen and (max-width: 600px) {
+    #experience-after-header {
+        margin-left: 15px;
+    }
 }
