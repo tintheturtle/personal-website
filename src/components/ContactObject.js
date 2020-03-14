@@ -2,8 +2,8 @@ import React from 'react'
 import './../styles/Contact.css'
 
 const ContactObject = () => (
-    <div className="object-div">
-            <div className="section-header-parent">
+    <div id="project-object-div" className="object-div">
+            <div id="project-header" className="section-header-parent">
                 <h1 className="section-header-child list-number">
                     04.
                 </h1>
