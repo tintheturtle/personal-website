@@ -1,5 +1,6 @@
 import React from 'react'
 import './../styles/Contact.css'
+import Turtle from '../images/pet.png'
 
 const ContactObject = () => (
     <div id="project-object-div" className="object-div">
@@ -15,9 +16,12 @@ const ContactObject = () => (
                 </div>
             </div>
             <div className="content-div">
-                <h1 className="contact-line"> Email me at tintheturtle@gmail.com </h1>
+                <div className="contact-info">
+                    <h1 className="contact-line"> Email me at tintheturtle@gmail.com </h1>
+                    <img className="turtle" src={Turtle} alt="turtle" />
+                </div>
             </div>
-            
+            {/* <Icons made by Freepik from https://www.flaticon.com/authors/freepik on www.flaticon.com */}
         </div>
 )
 

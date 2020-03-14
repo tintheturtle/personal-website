@@ -1,5 +1,20 @@
+.turtle {
+    padding-top: 40px;
+    width: 10%;
+}
+
 @media only screen and (max-width: 600px) {
     .contact-line {
         font-size: 13px;
     }
+    
+    .contact-info {
+        padding-bottom: 200px;
+    }
+
+    .turtle {
+        padding-top: 40px;
+        width: 25%;
+    }
 }
+
