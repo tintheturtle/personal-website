@@ -22,7 +22,7 @@ const ProjectItem = ({data}) => (
                 </p>
             </div>
             <div className="project-tech-ul">
-                <ul clstyle={{ listStyle: "none", display: "inline"}}>
+                <ul className="utech-list" clstyle={{ listStyle: "none", display: "inline"}}>
                     { data.technologies.map((data) => (
                         <li className="tech-list"> { data } </li>
                     ))}

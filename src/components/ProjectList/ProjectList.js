@@ -9,10 +9,10 @@ data.length > 0 && (
             <ProjectItem data={data} key={indx} />
         ))}
 
-        <div>
+        {/* <div>
             <h1> Other Projects </h1>
             <h3> </h3> 
-        </div>
+        </div> */}
     </div>
 )
 

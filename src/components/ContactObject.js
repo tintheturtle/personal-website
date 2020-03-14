@@ -1,4 +1,5 @@
 import React from 'react'
+import './../styles/Contact.css'
 
 const ContactObject = () => (
     <div className="object-div">
@@ -14,7 +15,7 @@ const ContactObject = () => (
                 </div>
             </div>
             <div className="content-div">
-                <h1> Email me at tintheturtle@gmail.com </h1>
+                <h1 className="contact-line"> Email me at tintheturtle@gmail.com </h1>
             </div>
             
         </div>
