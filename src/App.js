@@ -1,12 +1,23 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Home from './pages/Home'
+import Loader from '../src/components/Loader'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
-  return (
-    <Home/>
-  )
+
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    setLoading(false)
+  }, [])
+
+
+  if (loading){
+    return <Loader/>
+  }
+  return <Home/>
+
 }
 
 export default App;
