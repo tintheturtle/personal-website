@@ -76,6 +76,12 @@
         padding: 0.25rem;
     }
 
+    .navbar-links {
+        flex-grow: 1;
+        justify-content: center;
+        text-align: center;
+    }
+
     .navbar-logo {
         flex-grow: 1;
         text-align: center;

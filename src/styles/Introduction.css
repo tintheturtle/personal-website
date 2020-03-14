@@ -33,6 +33,12 @@
     #intro-div {
         display:flex;
     }
+
+    #intro-object-div {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
     .hello-h3 {
         font-size: 20px;
     }
