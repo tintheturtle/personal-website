@@ -179,14 +179,17 @@ p {
   }
 
   .socialmedia-div {
-    position: fixed;
-    bottom: 0px;
-    z-index: -1;
+    position: absolute;
+    right: 0px;
+    padding-left: 10px;
   }
 
   .email-div {
-    position: fixed;
-    bottom: 0px;
-    z-index: -1;
+    position: absolute;
+    width: 60%;
+    padding: 20px;
+    padding-bottom: 0px;
+    background: #282c34;
+
   }
 }

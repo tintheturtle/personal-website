@@ -30,18 +30,13 @@ function Home() {
                 <div className="contact-container">
                     <ContactObject />
                 </div>
-                <div className="socialmedia-div">
+            </div>
+            <div className="socialmedia-div">
                 <SocialMediaStick/>
                 </div>
                 <div className="email-div">
                     <EmailStick />
                 </div>
-            </div>
-
-
-            <div className="right-email">
-
-            </div>
         </div>
     )
 }
