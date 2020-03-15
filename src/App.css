@@ -177,4 +177,16 @@ p {
   .passion {
     font-size: 20px;
   }
+
+  .socialmedia-div {
+    position: fixed;
+    bottom: 0px;
+    z-index: -1;
+  }
+
+  .email-div {
+    position: fixed;
+    bottom: 0px;
+    z-index: -1;
+  }
 }

@@ -1,0 +1,58 @@
+.email-stick-div {
+    background-color: #282c34;
+    color: grey;
+    
+}
+
+.email-stick-outer-div {
+    background-color: #282c34;
+    float: right;
+    position: fixed;
+    bottom: 0px;
+    z-index: 0;
+    right: 0px;
+}
+
+.email-line {
+    transform: rotate(90deg);
+    padding-right: 20px;
+    color: grey;
+}
+
+.email-stick-div::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    background-color: grey;
+    margin: 0px auto;
+    margin-top: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+    .email-stick-outer-div {
+        background-color: #282c34;
+        float: center;
+        position: relative;
+        bottom: 0px;
+        z-index: 0;
+        right: 0px;
+    }
+
+    .email-line {
+        transform: rotate(0deg);
+        padding-right: 20px;
+        color: white;
+    }
+
+    .email-stick-div::after {
+        content: "";
+        display: block;
+        width: 0px;
+        height: 0px;
+        background-color: grey;
+        margin: 0px 0;
+        margin-top: 0px;
+    }
+
+}

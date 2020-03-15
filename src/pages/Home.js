@@ -7,18 +7,13 @@ import HeadshotObject from '../components/HeadshotObject'
 import ExperienceObject from '../components/ExperienceObject'
 import ProjectObject from '../components/ProjectObject'
 import ContactObject from '../components/ContactObject'
+import SocialMediaStick from '../components/SocialMediaStick'
+import EmailStick from '../components/EmailStick'
 
 function Home() {
     return (
         <div className="App">
             <Navbar/>
-            {/* <div className="left-socialmedia">
-                <ul>
-                    <li> LinkedIn </li>
-                    <li> GitHub </li>
-                    <li> Instagram </li> 
-                </ul>
-            </div> */}
             <div className="container-div">
                 <div className="introduction-container">
                     <IntroductionObject/>
@@ -34,6 +29,12 @@ function Home() {
                 </div>
                 <div className="contact-container">
                     <ContactObject />
+                </div>
+                <div className="socialmedia-div">
+                <SocialMediaStick/>
+                </div>
+                <div className="email-div">
+                    <EmailStick />
                 </div>
             </div>
 
